@@ -1,0 +1,59 @@
+/*
+ Theme Name:    final-client
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:      _tk-master 3
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+
+
+html, body {
+  height: 100%;
+}
+body {
+  font: 12px/1.2 Arial;
+  perspective: 600px;
+  perspective: 600px;
+  background: #666;
+  background: linear-gradient(#222,#222,#444);
+  color: #fff;
+  text-align:center;
+}
+.threedee {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+.assembly {
+  animation: spin 4s linear infinite;
+}
+#box-toggle:checked ~ .assembly .face {
+  box-shadow: inset 0 0 0 1px #0f0;
+  mask-image: none !important;
+  backface-visibility: visible;
+}
+@keyframes spin {
+  to {
+    transform: rotateY(360deg) rotateZ(360deg) rotateX(720deg);
+  }
+}
+
+element {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAyCAYAAAAqRkmtAAACiUlEQVRoQ9VZa0vEQAy8+/8/yPcbFVFEEREREcS/4eNSmpKmmU12t/XYD6W3beGmk8kk2a5Xq9XR5vjeHD+B47d/xjrTtdSxud3dl+d+OTmt+yvDmX4c9n8eAbtVoAeCyRRYBknMb4XRfRVyC6wEqYFK0Cj0HG4OfSr8HG56ZhR6AhoJO2u4JPxInxK4BDYCyYu9YOglk/xbsymvy8RhpjlrNEArqWRCrWlBQEsYRWC98EfAmlm/W8FoBKzWp2aT11KbZugJ6NKMzpJMFlANPJX1Wpdyjdj0NKozv9PoTjD0pRYVDb2b9VGgVtZHNKrLpuelEzb5DRhoRKel1alGox1wGfpmgFIYPbCIUa+MRiuTpdMJox7QrSdTM/bUlOFzZ7SERqM+6pbQZpqSZtq8ZhrnZkaRZoa7ZsblZjYgjgM1vmYClYOd1+LBnpRM9iQItLTFQ/0o6vLhXH9aCTTaOWnAehp1K9NZP4rUbufo2UnP9ajV82b6Tg70FudiZtKtHmrtoiOIpU9PpzD0Fwoo2n6sbZo9gJJZcwq9DGi0JpFyhjuoU7pxtSCjtXP9aDfv2gFaOoJofaKst5JJ+ukwM91kMirtyMp0a5MsOtyZicSobxMaLd3K0dZksZlt+HcZoUdsImZTY0g20PtA6OeypohFQR99MCqTDnnqA0NKp7My+ggYjerz34A+LQRUsolCrnWaNPznSqCoeyo1e/bV0T4+LV4KgCJwJAPNZI41WfV+MPzXAFDLluY2e83kqDoR2jcD6ByJhJoRrUtea31OgL4roCU9aORDWMRDIav0Fh890JR3lnz/1GVU1nsGlJX1n4UaRQkV6ZpQ+Uwm05ej0TkSycp8i2Hoo3+utUtvDhk9pwAAAABJRU5ErkJggg==") 0 0 / 100% 100%, url("texture.png") 0 0 / auto auto;
+}
+
+
+.house {
+  background-color: transparent;
+  text-align: center;
+
+} 
