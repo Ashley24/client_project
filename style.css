@@ -10,11 +10,11 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
-*/
+*/*/
 
 
-
-html, body {
+/*3D Theme Failed*/
+/*html, body {
   height: 100%;
 }
 body {
@@ -45,15 +45,167 @@ body {
   to {
     transform: rotateY(360deg) rotateZ(360deg) rotateX(720deg);
   }
+}mythememytheme
+
+
+
+
+
+<a class="btn btn-primary" href="#" role="button">Link</a>
+<button class="btn btn-primary" type="submit">Button</button>
+<input class="btn btn-primary" type="button" value="Input">
+
+body {
+  /*background-color: #4b515d;*/
+  /*background: url(http://localhost:8888/myportfolio/wp-content/uploads/2016/07/Screen-Shot-2016-07-20-at-11.00.33-AM-1.png)*/
+  /*background-color: #ebebeb;*/
 }
 
-element {
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAyCAYAAAAqRkmtAAACiUlEQVRoQ9VZa0vEQAy8+/8/yPcbFVFEEREREcS/4eNSmpKmmU12t/XYD6W3beGmk8kk2a5Xq9XR5vjeHD+B47d/xjrTtdSxud3dl+d+OTmt+yvDmX4c9n8eAbtVoAeCyRRYBknMb4XRfRVyC6wEqYFK0Cj0HG4OfSr8HG56ZhR6AhoJO2u4JPxInxK4BDYCyYu9YOglk/xbsymvy8RhpjlrNEArqWRCrWlBQEsYRWC98EfAmlm/W8FoBKzWp2aT11KbZugJ6NKMzpJMFlANPJX1Wpdyjdj0NKozv9PoTjD0pRYVDb2b9VGgVtZHNKrLpuelEzb5DRhoRKel1alGox1wGfpmgFIYPbCIUa+MRiuTpdMJox7QrSdTM/bUlOFzZ7SERqM+6pbQZpqSZtq8ZhrnZkaRZoa7ZsblZjYgjgM1vmYClYOd1+LBnpRM9iQItLTFQ/0o6vLhXH9aCTTaOWnAehp1K9NZP4rUbufo2UnP9ajV82b6Tg70FudiZtKtHmrtoiOIpU9PpzD0Fwoo2n6sbZo9gJJZcwq9DGi0JpFyhjuoU7pxtSCjtXP9aDfv2gFaOoJofaKst5JJ+ukwM91kMirtyMp0a5MsOtyZicSobxMaLd3K0dZksZlt+HcZoUdsImZTY0g20PtA6OeypohFQR99MCqTDnnqA0NKp7My+ggYjerz34A+LQRUsolCrnWaNPznSqCoeyo1e/bV0T4+LV4KgCJwJAPNZI41WfV+MPzXAFDLluY2e83kqDoR2jcD6ByJhJoRrUtea31OgL4roCU9aORDWMRDIav0Fh890JR3lnz/1GVU1nsGlJX1n4UaRQkV6ZpQ+Uwm05ej0TkSycp8i2Hoo3+utUtvDhk9pwAAAABJRU5ErkJggg==") 0 0 / 100% 100%, url("texture.png") 0 0 / auto auto;
+h1 {
+  color: #37474F; 
+}
+<h1> Ashley's Portfolio </h1>
+
+
+
+.wpcf7-form {background:#4b515d;}
+ 
+ .wpcf7-form p{
+ font-family: serif;
+ font-size:medium;
+ text-align: center;
+ color: #000000;
+ }
+ .wpcf7-form p input, .wpcf7-form p textarea{
+ font-size:larger;
+ background-color:#ebebeb;
+ color:#ebebeb; 
+}
+
+.form7submit  {
+ display: block;
+ width: 307px;
 }
 
 
-.house {
-  background-color: transparent;
+/*Design navbar*/
+
+.navbar-default {
+    background-color: #616161;
+    border-color: #616161
+}
+
+/*<nav class="navbar navbar-inverse">
+  ...
+</nav>*/
+
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #616161;
+}
+
+  .nav {
+    margin: 0 auto;
+    padding: 0;
+    width: 75%;
+}
+
+</nav>
+
+
+.nav-wrapper {
+    background-color: #58ACFA;
+    padding: 1px;
+}
+
+
+/* Header */
+ .site-header{
+  background-color:#9E9E9E;
+  color:#B2DFDB;
+ }
+a{
+  color:#FFFFFF;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: #616161;
+    border-color: #616161;
+}
+
+/* title */
+.navbar-default .navbar-brand {
+    color: #ebebeb;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #ebebeb;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #000000;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000000;;
+    background-color: #9E9E9E;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555; 
+    background-color: #ebebeb;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+
+
+
+ 
+
+
+/* Fonts */
+@import url(https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans);
+h1{
+  font-family: 'open sans', sans-serif; 
+}
+
+
+/*fixed to top nav*/
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    ...
+  </div>
+ body { padding-top: 70px; }
+</nav>
+
+/*Social Media*/
+.h3{
   text-align: center;
+  margin: 0 auto;
+}
 
-} 
+
+
+h1{
+  color:#000000;
+}
+.page-title{
+  color:#000000;
+}
+
